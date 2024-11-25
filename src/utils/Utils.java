@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Utils {
     public static void printArray(int[] arr) {
         Arrays.stream(arr).forEach(value -> {
-            System.out.print(value + ", ");
+            System.out.print(value + " ");
         });
     }
 }
